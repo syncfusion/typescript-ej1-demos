@@ -1,0 +1,413 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Essential JS 1 for TypeScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+    <meta name="description" content="Essential JS 1 for TypeScript package provides the default type definition file ej.web.all.d.ts to include the support for type-checking while initializing any of the Syncfusion widgets." />
+    <meta name="author" content="Syncfusion" />
+	<link rel="canonical" href="https://tsjq.syncfusion.com" />
+    <link href="content/images/favicon.ico" rel="shortcut icon" />
+	<!-- Sample Browser related references-->
+    <link href="content/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/ejthemes/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
+    <link href="content/default.css" rel="stylesheet" />
+    <link href="content/ejthemes/ribbon-css/ej.icons.css" rel="stylesheet" />
+    <!--Dependency files references-->
+    <!--[if lt IE 9]>
+    <script src="scripts/jquery-1.11.3.min.js" type="text/javascript" ></script>
+    <![endif]-->
+    <!--[if IE 9]><!-->
+    <script src="scripts/jquery-3.1.1.min.js" type="text/javascript"> </script>
+    <!--<![endif]-->
+    <script src="scripts/jsrender.min.js" type="text/javascript"></script>
+    <script src="scripts/jquery.validate.min.js"></script>
+    <script src="scripts/common/jsondata.min.js" type="text/javascript"></script>
+    <script src="scripts/common/xljsondata.min.js" type="text/javascript"></script>
+    <script src="scripts/jsonkanbandata.js"></script>
+    <script src="scripts/jsonganttdata.js"></script>
+    <script src="scripts/jsonscheduledata.js"></script>
+    <script src="scripts/ej.web.all.min.js" type="text/javascript"></script>
+	<!-- Sample Browser related references-->
+	<script src="scripts/Service.config.js"></script>
+    <script src="scripts/default.js" type="text/javascript"></script>
+    <script src="scripts/sampleslist.js" type="text/javascript"></script>
+	<!--highlighter references-->
+    <link href="scripts/CodeMirror/codemirror.min.css" rel="stylesheet" />
+    <script src="scripts/CodeMirror/codemirror.js" type="text/javascript"></script>
+    <script src="scripts/CodeMirror/javascript.js" type="text/javascript"></script>
+    <script src="scripts/CodeMirror/css.js" type="text/javascript"></script>
+    <script src="scripts/CodeMirror/xml.js" type="text/javascript"></script>
+    <script src="scripts/CodeMirror/htmlmixed.js" type="text/javascript"></script>    
+</head>
+<body style="overflow:auto">
+    <div id="ej2popup" class="e-ej2popup">
+        <div class="e-popup-close">
+            <button id="popupclose" type="button"></button>
+        </div>
+        <table class="e-popup-table">
+            <tr>
+                <td class="e-popup-td">
+                    <div class="e-popup-content">
+                        <table class="e-content-table">
+                            <tr>
+                                <td class="e-content-td1">
+                                    <div class="e-popup-first">Take a look at our next generation</div>
+                                </td>
+                                <td class="e-content-td2">
+                                    <div class="e-popup-second">JavaScript Library</div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td class="e-popup-td">
+                    <div class="e-popup-more">
+                        <a href="http://ej2.syncfusion.com/home/index.html?utm_source=ej1&utm_medium=banner&utm_campaign=migrate" class="anchorclass" target="_blank">
+                            <button id="learnmore" title="Essential JS 2" type="button">LEARN MORE</button>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="header activebg-color">
+        <div class="sbheader">
+            <h1 class="title">
+                <a title="Essential JS 1 for TypeScript">
+                    <div class="tslogo">
+                    </div>
+                </a>
+            </h1>
+            <div style="float: right;">
+                <div class="ej2option">
+                    <a href="http://ej2.syncfusion.com/home/index.html?utm_source=ej1&utm_medium=referral&utm_campaign=migrate" class="anchorclass" target="_blank">
+                        <button id="ej2button" title="Essential JS 2" type="button" style="float: left;">ESSENTIAL JS 2</button>
+                    </a>
+                </div>
+                <div class="tsthemegallery" style="float: right;">
+                    <ul id="themebutton" title="Theme Switcher"></ul>
+                    <div id="sbtooltipbox">
+                        <div class="sbtooltip"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="toolbarmainsample">
+            <ul></ul>
+        </div>
+        <div id="toolbarsubsample">
+            <ul></ul>
+        </div>
+        <div id="showcasesample" class="controlSamples-section" style="display:none">
+            <ul class="featuredsamples">
+                <li class="listsampleimage">
+                    <div class="lisampleimage">
+                        <a href="showcase/healthtracker/default.html" target="_blank">
+                            <div class="imgstyle img1"></div>
+                        </a>
+                    </div>
+                    <div class="litext">
+                        <a class="anchorclass aclass">Health Tracker</a>
+                        <p>
+                            Visualize food intake and calories burnt using gauges, charts and grids.
+                        </p>
+                    </div>
+                    <div class="samplebutton">
+                        <a class="anchorclass" href="showcase/healthtracker/default.html" target="_blank">
+                            <div><span>VIEW SAMPLE</span></div>
+                        </a>
+                    </div>
+                    <div class="codebutton">
+                        <a class="anchorclass" target="_blank" href="showcase/sourcecode.html?id=healthtracker">
+                        </a>
+                    </div>
+                    <span class="qrcode"><span class="qrimage qrhealth"></span></span>
+                </li>
+                <li class="listsampleimage">
+                    <div class="lisampleimage">
+                        <a href="showcase/expenseanalysis/default.html" target="_blank">
+                            <div class="imgstyle img4"></div>
+                        </a>
+                    </div>
+                    <div class="litext">
+                        <a class="anchorclass aclass">Expense Analysis</a>
+                        <p>Categorize and analyze expenses to understand how money was spent.</p>
+                    </div>
+                    <div class="samplebutton">
+                        <a class="anchorclass" href="showcase/expenseanalysis/default.html" target="_blank">
+                            <div><span>VIEW SAMPLE</span></div>
+                        </a>
+                    </div>
+                    <div class="codebutton">
+                        <a class="anchorclass" target="_blank" href="showcase/sourcecode.html?id=expenseanalysis">
+                        </a>
+                    </div>
+                    <span class="qrcode"><span class="qrimage qrexpense"></span></span>
+                </li>
+                <li class="listsampleimage">
+                    <div class="lisampleimage">
+                        <a href="showcase/weatheranalysis/default.html" target="_blank">
+                            <div class="imgstyle img3"></div>
+                        </a>
+                    </div>
+                    <div class="litext">
+                        <a class="anchorclass aclass">Weather Analysis</a>
+                        <p>Analyze historical weather data using charts and grids.</p>
+                    </div>
+                    <div class="samplebutton">
+                        <a class="anchorclass" href="showcase/weatheranalysis/default.html" target="_blank">
+                            <div><span>VIEW SAMPLE</span></div>
+                        </a>
+                    </div>
+                    <div class="codebutton">
+                        <a class="anchorclass" target="_blank" href="showcase/sourcecode.html?id=weatheranalysis">
+                        </a>
+                    </div>
+                    <span class="qrcode"><span class="qrimage qrweather"></span></span>
+                </li>
+               <li class="listsampleimage">
+                    <div class="lisampleimage">
+                        <a href="showcase/hospitalmanagement/default.html" target="_blank">
+                            <div class="imgstyle img12"></div>
+                        </a>
+                    </div>
+                    <div class="litext">
+                        <a class="anchorclass aclass">Appointment Planner</a>
+                        <p>
+                            Find the doctor availability and books appointment.
+                        </p>
+                    </div>
+                    <div class="samplebutton">
+                        <a class="anchorclass" href="showcase/hospitalmanagement/default.html" target="_blank">
+                            <div><span>VIEW SAMPLE</span></div>
+                        </a>
+                    </div>
+                    <div class="codebutton">
+                        <a class="anchorclass" target="_blank" href="showcase/sourcecode.html?id=hospitalmanagement"></a>
+                    </div>
+                    <span class="qrcode"><span class="qrimage qrhospital"></span></span>
+                </li>
+                <li class="listsampleimage">
+                    <div class="lisampleimage">
+                        <a href="showcase/outlook/default.html" target="_blank">
+                            <div class="imgstyle img14"></div>
+                        </a>
+                    </div>
+                    <div class="litext">
+                        <a class="anchorclass aclass">Webmail</a>
+                        <p>
+                            Outlook-like user interface with Office 365 theme.
+                        </p>
+                    </div>
+                    <div class="samplebutton">
+                        <a class="anchorclass" href="showcase/outlook/default.html" target="_blank">
+                            <div><span>VIEW SAMPLE</span></div>
+                        </a>
+                    </div>
+                    <div class="codebutton">
+                        <a class="anchorclass" target="_blank" href="showcase/sourcecode.html?id=outlook"></a>
+                    </div>
+                    <span class="qrcode"><span class="qrimage qrwebmail"></span></span>
+                </li>
+            </ul>
+        </div>
+        <div id="typescript">
+            <div id="text" class="textbcolor"></div>
+            <div class="content-container-fluid">
+                <div class="row">
+                    <div class="cols">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div id="sourceText" class="textbcolor" style="display:block">Code Preview</div>
+        <div id="sourceTab">
+            <ul>
+                <li><a href="#htmlsource">HTML</a></li>
+                <li><a href="#tssource">TS</a></li>
+                <li><a href="#jssource">JS</a></li>
+            </ul>
+            <div id="htmlsource">
+                <div class="tab_content">
+                </div>
+            </div>
+            <div id="tssource">
+                <div class="tab_content">
+                </div>
+            </div>
+            <div id="jssource">
+                <div class="tab_content">
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="bottom-links">
+                <div class="left">
+                    <div class="sync-text">
+                        Copyright &copy; 2001-2018 Syncfusion Inc.
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="//www.syncfusion.com" target="_blank">
+                        <div class="syncfusion-image"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $("#sourceTab").ejTab({ selectedItemIndex: 0 });
+            $(".codebutton .anchorclass").ejButton({ contentType: "imageOnly", prefixIcon: "e-icon codeimg", showRoundedCorner: false });
+            $(".samplebutton .anchorclass").ejButton({ showRoundedCorner: false });
+        });
+    </script>
+    <style>
+	
+        #text,#sourceText {
+            font-size: 20px;
+            padding: 10px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            
+        }
+		.textbcolor{
+		    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#eee),color-stop(100%,#e0e0e0));
+		}
+		.azuredark,.limedark,.gradientazuredark,.saffrondark,.gradientlimedark,.gradientsaffrondark,.high-contrast-01dark,.high-contrast-02dark {
+		    color:white;         
+        }
+        #typescript {
+            width: 96%;
+            margin: 2%;
+        }
+		
+		#sourceTab {
+		   margin-left: 2%;
+		   margin-right: 2%;
+		   margin-bottom: 2%;
+		  
+		}
+        #sourceText {
+		   margin-left: 2%;
+		   margin-right: 2%;
+		}
+        .tshead {
+            display: inline-block;
+            width: 177px;
+            margin-top: 15px;
+            margin-left: 5px;
+            font-size: 20px;
+        }
+
+        .title {
+            width: 177px;
+            height: 33px;
+            margin-top: 0px;
+            float: left;
+        }
+
+        .viewsample {
+            border: 1px solid;
+            background: #fcfcfc;
+            border-color: #cecece;
+        }
+
+        .samplebutton {
+            color: #000 !important;
+            font-size: 13px;
+            font-weight: 600;
+            height: 25px;
+            line-height: 25px;
+            margin-top: -43px;
+            border-color: #cecece;
+        }
+
+        .codebutton > a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .anchorclass {
+            cursor: pointer;
+        }
+        .tslogo {
+            background-image: url("content/images/Typescript.png");
+            background-repeat:no-repeat;
+            width: 356px;
+            height: 40px;
+            float: left;
+        }
+
+        .tsdiv {
+            margin-top: 7px;
+            margin-left: 182px;
+        }
+
+        .pcontent {
+            color: #66c2ff;
+            font-size: 22px;
+            letter-spacing: 0.3px;
+        }
+		.tsthemegallery {
+		    float: right;
+            margin-top: -4px;
+            margin-right: 4px;
+            width: 58px;
+		} 
+		@media (max-width: 981px) {
+		
+		 #themebutton .e-icon {
+             width: 50px;
+             height: 54px;
+            }
+	    .e-custom-tstheme {
+             margin-top: 3px;
+             float: right;
+             margin-right: -2px;
+           }
+		}
+		.e-btn.e-btn-normal, .e-tbtn.e-btn-normal{
+         height:34px;
+        }
+        #toolbarmainsample.e-toolbar.e-toolbarspan{
+            padding-left:0px;
+            padding-right:0px;
+        }
+        #toolbarmainsample.e-toolbar>ul>li{
+         margin-right:1px;
+         padding:4px;
+        }
+        #toolbarmainsample.e-toolbar>.e-horizontal.e-ul{
+         margin-top:0px;
+         margin-button:0px;
+        }
+        #toolbarsubsample.e-toolbar>.e-horizontal.e-ul{
+         margin-top:0px;
+         margin-button:0px;
+        }
+		#toolbarsubsample.e-toolbar>ul>li{
+         margin-right:1px;
+         padding:4px;
+        }
+        #toolbarsubsample.e-toolbar.e-toolbarspan{
+            padding-left:0px;
+            padding-right:0px;
+        }
+       .materialActiveBtn{
+	      background:#ff4081 !important;
+		  color:white !important;
+	   }
+	   .office365ActiveBtn{
+	      background:#0078d7 !important;
+		  color:white !important;
+	   }
+
+
+
+    </style>
+</body>
+</html>
