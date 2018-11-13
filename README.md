@@ -34,8 +34,6 @@ The easiest way to use these samples without using Git is to download the zip fi
 
 If you clone the application, run **git clone <repository-url>** to clone the repository.
 
-To use the Syncfusion Essential TypeScript samples, Syncfusion license key should be registered in samples. Refer [this](https://www.syncfusion.com/kb/9002/how-to-apply-the-license-key-for-syncfusion-samples-published-in-github) link for more information.
-
 ## <a name="run-the-samples"></a>How to Run the samples ##
 
 * Run `typescriptsamples-release.bat` to generate corresponding js file for ts.
@@ -89,5 +87,7 @@ Download our TypeScript Platform installer from [here](https://www.syncfusion.co
 ## <a name="support-and-feedback"></a>Support and Feedback ##
 
 * For using the Syncfusion controls, refer to our documentation [Syncfusion Help](https://help.syncfusion.com/typescript/). All API documentation can be found at [API Reference](https://help.syncfusion.com/api/js/global).
-* In case of any questions regarding the use of Syncfusion TypeScript, please [contact us](http://www.syncfusion.com/support/#) by creating a support ticket.
+
+* For any other queries, reach our [Syncfusion support team](https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=github&utm_medium=listing) or post the queries through the [community forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing).
+
 * To renew the subscription, click [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing) or contact our sales team at <salessupport@syncfusion.com>.
