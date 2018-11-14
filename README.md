@@ -89,8 +89,6 @@ Download our TypeScript Platform installer from [here](https://www.syncfusion.co
 
 ## <a name="support-and-feedback"></a>Support and Feedback ##
 
-* For using the Syncfusion controls, refer to our documentation [Syncfusion Help](https://help.syncfusion.com/typescript/). All API documentation can be found at [API Reference](https://help.syncfusion.com/api/js/global).
-
 * For any other queries, reach our [Syncfusion support team](https://www.syncfusion.com/support/directtrac/incidents/newincident?utm_source=github&utm_medium=listing) or post the queries through the [community forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing).
 
 * To renew the subscription, click [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing) or contact our sales team at <salessupport@syncfusion.com>.
