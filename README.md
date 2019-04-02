@@ -5,7 +5,7 @@ This repository contains the demos of [Syncfusion TypeScript UI controls](https:
 * [Requirements to run the demo](#requirements-to-run-the-demo)
 * [License](#license)
 * [Using the examples](#using-the-examples)
-* [How to Run the samples](#run-the-samples)
+* [How to Run the samples](#run-the-samples) 
 * [Controls Catalog](#controls-catalog)
 * [Support and Feedback](#support-and-feedback)
 
