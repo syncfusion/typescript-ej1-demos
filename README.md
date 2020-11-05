@@ -93,4 +93,4 @@ Download our TypeScript Platform installer from [here](https://www.syncfusion.co
 
 * To renew the subscription, click [here](https://www.syncfusion.com/sales/products?utm_source=github&utm_medium=listing) or contact our sales team at <salessupport@syncfusion.com>.
 
-<p>Copyright © 2001-2020 Syncfusion, Inc. Updated on 2020-10-09 at precisely 14:43:03 EST.</p>
+<p>Copyright © 2001-2020 Syncfusion, Inc. Updated on 2020-11-05 at precisely 20:28:30 EST.</p>
