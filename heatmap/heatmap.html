@@ -1,0 +1,49 @@
+﻿<div class="cols-sample-area">
+<div class="frame" style="height:auto;width:95%;">
+    <div class="control">
+		<div style="border-width: 2px; opacity: 0.7; width: 100%; text-align: center;">
+			<label class="ht-label1">Product Sales by Year</label><br />
+			<label class=".ht-label2">(In Percentage)</label>
+		</div>
+		<br />
+		<div style="width: 100%; margin: 0 auto; text-align: center;">
+			<div id="heatmap"></div>
+			<div style="height: 15px; width: 100%;"></div>
+			<div id="heatmap_legend" style=""></div>
+		</div>
+    </div>
+</div>
+</div>
+<script type="text/javascript" src="heatmap/heatmap.js"></script>
+
+<style>
+    #heatmap_legend {
+        margin-left: 100px;
+    }
+	
+	.ht-label1 {
+		color: Black;
+		font-size: 22px;
+		height: 25px;
+		font-weight: Normal;
+	}
+
+	.ht-label2 {
+		color: Black;
+		font-size: 22px;
+		margin-top: -2px;
+		height: 25px;
+		font-weight: Normal;
+	}
+	       .row .cols-sample-area {
+            min-height: 250px;
+        }
+
+        @media (min-width: 1024px) and (max-width: 1920px) {
+
+            .row .cols-sample-area {
+                width: 98.956%;
+                *width: 72.956%;
+            }
+        }
+</style>
