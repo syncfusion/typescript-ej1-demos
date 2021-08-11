@@ -1,0 +1,55 @@
+<div class="cols-sample-area">
+    <div id="contentDiv">
+        <div id="radialtarget1" class="content-container-fluid">
+            <div class="row">
+                <div class="cols-sample-area">
+                    <textarea id="rteSample1" rows="10" cols="70" style="height: 440px">
+                        <p>
+                            Model–view–controller (MVC) is a software architecture pattern which separates the representation of information from the user's interaction with it.
+                            The model consists of application data, business rules, logic, and functions. A view can be any output representation of data, such as a chart or a diagram.
+                            Multiple views of the same data are possible, such as a bar chart for management and a tabular view for accountants.
+                            The controller mediates input, converting it to commands for the model or view.The central ideas behind MVC are code reusability and in addition to dividing the application into three kinds of components, the MVC design defines the interactions between them.
+                        </p>
+
+                        <p>A controller can send commands to its associated view to change the view's presentation of the model (e.g., by scrolling through a document). It can also send commands to the model to update the model's state (e.g., editing a document).</p>
+
+                        <p>A model notifies its associated views and controllers when there has been a change in its state. This notification allows the views to produce updated output, and the controllers to change the available set of commands. A passive implementation of MVC omits these notifications, because the application does not require them or the software platform does not support them.</p>
+
+                        <p>A view requests from the model the information that it needs to generate an output representation to the user.</p>
+                    </textarea>
+                </div>
+            </div>
+        </div>
+        <div id="defaultradialmenu">
+            <ul>
+                <li data-ej-imageurl="content/images/RadialMenu/font.png" data-ej-text="Bold" data-ej-click="bold"></li>
+                <li data-ej-imageurl="content/images/RadialMenu/f1.png" data-ej-text="Italic" data-ej-click="italic"></li>
+                <li data-ej-imageurl="content/images/RadialMenu/redo.png" data-ej-text="Redo" data-ej-click="redo" data-ej-enabled="false"></li>
+                <li data-ej-imageurl="content/images/RadialMenu/undo.png" data-ej-text="Undo" data-ej-click="undo" data-ej-enabled="false"></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="radialmenu/radialmenu.js"></script>
+ <style type="text/css" class="cssStyles">
+        .e-radialmenu .imageclass {
+            background-image: url(content/images/RadialMenu/settings.png);
+        }
+
+        .e-radialmenu .backimageclass {
+            background-image: url(content/images/RadialMenu/Back_button.png);
+        }
+
+        textarea {
+            padding: 10px;
+        }
+        #defaultradialmenu {
+            pointer-events:none;
+        }
+        .e-radial,#defaultradialmenu_svgdiv {
+            pointer-events:all;
+        }
+		iframe{
+			margin: 0;
+		}
+    </style>
